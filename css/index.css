@@ -1,0 +1,58 @@
+body {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.navbar-blue {
+    background-image: -webkit-gradient(linear,left 0,left 100%,from(#070057),to(#08005f));
+    background-image: -webkit-linear-gradient(top,#070057,0%,#08005f,100%);
+    background-image: -moz-linear-gradient(top,#070057 0,#08005f 100%);
+    background-image: linear-gradient(to bottom,#070057 0,#08005f 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c',endColorstr='#ff222222',GradientType=0);
+}
+
+.navbar-blue .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-blue .navbar-nav>li>a:hover {
+    background-color: #03002a;
+}
+
+.navbar-blue > .navbar-brand {
+    color: white;
+}
+
+.user-info > a > img {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.not-read {
+    font-weight: bold;
+}
+
+.navbar-nav .open .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+}
+
+.navbar-nav .open .dropdown-menu > li:hover{
+    background-color: #428bca;
+}
+
+.sidebar {
+    margin-bottom: 10px;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #eee;
+    border-radius: 4px;
+    margin: -4px;
+    margin-bottom: 10px;
+}

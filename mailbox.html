@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+        <script src="js/jquery-1.9.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    
+    <body>
+        <header class="navbar navbar-inverse navbar-blue navbar-fixed-top navbar-collapse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="#" class="navbar-brand">Project</a>
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <nav class="collapse navbar-collapse bs-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link2</a></li>
+                        <li><a href="#">Link3</a></li>
+                        <li><a href="#">Link4</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown user-info" >
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="imgs/img.png" width="40" class="img-thumbnail"/>
+                                Abo 3abdo
+                                <b class="caret"></b>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-header">Personal Info.</li>
+                                <li><a href="#">My Profile</a></li>
+                                <li><a href="#">Edit Profile</a></li>
+                                <li class="divider"></li>
+                                <li class="dropdown-header">Posts</li>
+                                <li><a href="#">My Posts</a></li>
+                                <li><a href="#">My Favorite Posts</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Sign out</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-2 col-xs-12">
+                    <div class="thumbnail sidebar">
+                        <ul class="nav nav-pills nav-stacked">
+                            <li class="header">Sidebar</li>
+                            <li class="active">
+                                <a href="#">Link1</a>
+                            </li>
+                            <li>
+                                <a href="#">Link2</a>
+                            </li>
+                            <li>
+                                <a href="#">Link3</a>
+                            </li>
+                            <li>
+                                <a href="#">Link4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Content -->
+                <div class="col-md-9 col-sm-10 col-xs-12">
+                    <div class="tabbable">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#inbox" data-toggle="tab">Inbox</a></li>
+                            <li><a href="#sentbox" data-toggle="tab">Sentbox</a></li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="inbox">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>From</th>
+                                            <th>Subject</th>
+                                            <th>Desc</th>
+                                            <th>At</th>
+                                            <th class="glyphicon glyphicon-flag"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="not-read">
+                                            <td><input type="checkbox" /></td>
+                                            <td><a href="#">Mohammed Firas</a></td>
+                                            <td><a href="#">About the date</a></td>
+                                            <td>Hi there, Did you get my message, Please answer ...</td>
+                                            <td>26/9/2013</td>
+                                            <td class="glyphicon glyphicon-star-empty"></td>
+                                        </tr>
+                                        <tr>
+                                            <td><input type="checkbox" /></td>
+                                            <td><a href="#">Mohammed Firas</a></td>
+                                            <td><a href="#">How are you</a></td>
+                                            <td>Hello Ahmed, How are you, I'm Waiting you Tomorr...</td>
+                                            <td>25/9/2013</td>
+                                            <td class="glyphicon glyphicon-star"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="tab-pane" id="sentbox">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>To</th>
+                                            <th>Subject</th>
+                                            <th>Desc</th>
+                                            <th>At</th>
+                                            <th class="glyphicon glyphicon-flag"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td><input type="checkbox" /></td>
+                                            <td><a href="#">Mohammed Firas</a></td>
+                                            <td><a href="#">Re: About the date</a></td>
+                                            <td>Hello Mohammed, I'm sorry I'm busy, can you...</td>
+                                            <td>27/9/2013</td>
+                                            <td class="glyphicon glyphicon-star"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Content -->
+            </div>
+        </div>
+    </body>
+</html>
